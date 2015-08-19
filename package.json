@@ -1,0 +1,47 @@
+{
+  "name": "multiwhich",
+  "version": "1.0.0",
+  "description": "Find the paths of multiple executables in the PATH",
+  "repository": "shinnn/multiwhich",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --config @shinnn/node-legacy index.js test.js",
+    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js",
+    "coverage": "node --strong_mode node_modules/.bin/istanbul cover test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "which",
+    "arr",
+    "array",
+    "bin",
+    "binary",
+    "binaries",
+    "path",
+    "paths",
+    "executable",
+    "executables",
+    "async",
+    "asynchronous",
+    "parallel",
+    "async",
+    "resolve",
+    "find",
+    "check"
+  ],
+  "dependencies": {
+    "array-to-sentence": "^1.0.1",
+    "map-async": "^0.1.1",
+    "one-time": "^0.0.4",
+    "which": "^1.2.0"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node-legacy": "^1.0.0",
+    "eslint": "^1.6.0",
+    "istanbul": "^0.3.22",
+    "tape": "^4.2.1"
+  }
+}
