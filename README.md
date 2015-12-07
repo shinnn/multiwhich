@@ -3,11 +3,11 @@
 [![NPM version](https://img.shields.io/npm/v/multiwhich.svg)](https://www.npmjs.com/package/multiwhich)
 [![Build Status](https://travis-ci.org/shinnn/multiwhich.svg?branch=master)](https://travis-ci.org/shinnn/multiwhich)
 [![Build status](https://ci.appveyor.com/api/projects/status/m206w6c0co7l8cmq?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/multiwhich)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/multiwhich.svg)](https://coveralls.io/r/shinnn/multiwhich)
-[![Dependency Status](https://img.shields.io/david/shinnn/multiwhich.svg?label=deps)](https://david-dm.org/shinnn/multiwhich)
-[![devDependency Status](https://img.shields.io/david/dev/shinnn/multiwhich.svg?label=devDeps)](https://david-dm.org/shinnn/multiwhich#info=devDependencies)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/multiwhich.svg)](https://coveralls.io/github/shinnn/multiwhich?branch=master)
+[![Dependency Status](https://david-dm.org/shinnn/multiwhich.svg)](https://david-dm.org/shinnn/multiwhich)
+[![devDependency Status](https://david-dm.org/shinnn/multiwhich/dev-status.svg)](https://david-dm.org/shinnn/multiwhich#info=devDependencies)
 
-[node-which](https://github.com/npm/node-which) with multi-executable support: finds the first instance of a specified executable in the PATH environment variable.
+[node-which](https://github.com/npm/node-which) with multi-executable support: finds the instances of a specified executables in the PATH environment variable.
 
 ```javascript
 const multiwhich = require('multiwhich');
