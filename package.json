@@ -39,9 +39,9 @@
     "which": "^1.2.0"
   },
   "devDependencies": {
-    "@shinnn/eslint-config-node-legacy": "^1.0.0",
-    "eslint": "^1.6.0",
-    "istanbul": "^0.3.22",
-    "tape": "^4.2.1"
+    "@shinnn/eslint-config-node-legacy": "^2.0.0",
+    "eslint": "^2.8.0",
+    "istanbul": "^0.4.3",
+    "tape": "^4.5.1"
   }
 }
